@@ -1,7 +1,6 @@
-# 🏰 Dungeon Escape
-
-> **First-Person Puzzle Adventure \| Unreal Engine 5 \| C++ &
-> Blueprints**
+# 🏰 Dungeon Escape | Unreal Engine 5 | C++ & Blueprints
+> First-Person Puzzle Adventure :
+>
 
 Dungeon Escape is a first-person puzzle adventure built in **Unreal
 Engine 5** using **native C++** and **Blueprint Visual Scripting**. The
@@ -59,6 +58,12 @@ The archive includes:
 
 ------------------------------------------------------------------------
 
+# 🎥 Gameplay Video
+
+📺 **Watch Gameplay:** *(Add your YouTube or Google Drive link here.)*
+
+------------------------------------------------------------------------
+
 # 🎯 Gameplay Objective
 
 Explore the dungeon and solve environmental puzzles by:
@@ -87,54 +92,36 @@ Explore the dungeon and solve environmental puzzles by:
 
 ------------------------------------------------------------------------
 
-# ⚙️ Gameplay Systems
-
-## 🎮 First-Person Controller
-
--   Enhanced Input System
--   Character movement
--   Jump mechanics
--   Mouse look
--   Interaction input
-
-## 🤝 Interaction System
+ 🤝 Interaction System ::
 
 Implemented using **Sphere Sweep Tracing** to detect nearby interactable
-objects.
-
+objects.<br>
 Supports: - Collectable items - Locks - Future interactable actors
 
-------------------------------------------------------------------------
-🎒 Inventory System
+
+🎒 Inventory System ::
 
 A lightweight inventory stores collected key names using a dynamic
-array.
-
+array.br>
 Features: - Key collection - Inventory validation - Key removal after
 use - Puzzle progression
 
-------------------------------------------------------------------------
-🔐 Lock & Key System
+🔐 Lock & Key System ::
 
-Reusable lock actors manage puzzle progression.
-
+Reusable lock actors manage puzzle progression.br>
 Features: - Named key matching - Insert/remove keys - Lock state
 management - Trigger activation - Visual key placement
 
-------------------------------------------------------------------------
-🔘 Trigger Component
+🔘 Trigger Component ::
 
-Custom trigger component built from `UBoxComponent`.
-
+Custom trigger component built from `UBoxComponent`.br>
 Responsibilities: - Overlap detection - Pressure plate logic - Activator
 counting - Trigger state management - Communication with movement
 components
 
-------------------------------------------------------------------------
- 🚧 Mover Component
+ 🚧 Mover Component ::
 
-Reusable Actor Component controlling movement.
-
+Reusable Actor Component controlling movement.br>
 Features: - Configurable movement offset - Adjustable movement time -
 Delta Time interpolation - Automatic return movement - Smooth actor
 transitions
@@ -182,6 +169,22 @@ Screenshot 11 :
 
 ------------------------------------------------------------------------
 
+# 🌍 Environment Design
+
+The environment was created using the **Medieval Dungeon Asset Pack**
+from the **Fab Marketplace**.
+
+The level features:
+
+-   Medieval corridors
+-   Puzzle rooms
+-   Locked pathways
+-   Interactive mechanisms
+-   Pressure plates
+-   Atmospheric lighting
+-   Exploration-focused level progression
+
+------------------------------------------------------------------------
 # 🏗️ Architecture
 
 ``` text
@@ -222,60 +225,6 @@ keeping systems modular, reusable, and easy to extend.
 
 ------------------------------------------------------------------------
 
-# 🔷 Blueprint Integration
-
-Blueprints are used to:
-
--   Configure gameplay actors
--   Set movement values
--   Assign trigger references
--   Build reusable level actors
--   Assemble gameplay scenes
--   Rapidly iterate level design
-
-------------------------------------------------------------------------
-
-# 🌍 Environment Design
-
-The environment was created using the **Medieval Dungeon Asset Pack**
-from the **Fab Marketplace**.
-
-The level features:
-
--   Medieval corridors
--   Puzzle rooms
--   Locked pathways
--   Interactive mechanisms
--   Pressure plates
--   Atmospheric lighting
--   Exploration-focused level progression
-
-------------------------------------------------------------------------
-
-# 🛠️ Technologies Used
-
-  Technology        Purpose
-  ----------------- ------------------------
-  Unreal Engine 5   Game Engine
-  C++               Gameplay Programming
-  Blueprints        Gameplay Configuration
-  Enhanced Input    Player Controls
-  Visual Studio     Development
-  Git & GitHub      Version Control
-
-------------------------------------------------------------------------
-
-# 📦 Assets Used
-
-## Environment
-
--   Medieval Dungeon Asset Pack *(Fab Marketplace)*
--   Unreal Engine First Person Template
--   Custom C++ Components
--   Blueprint Actors
-
-------------------------------------------------------------------------
-
 # 📚 Unreal Engine Concepts
 
 -   Gameplay Framework
@@ -289,24 +238,14 @@ The level features:
 -   Level Design
 
 ------------------------------------------------------------------------
+# 📦 Assets Used
 
-# 📈 Skills Demonstrated
+## Environment
 
--   Unreal Engine Gameplay Programming
--   Native C++ Development
--   Blueprint & C++ Integration
--   Component-Based Architecture
--   Interactive Puzzle Systems
--   Inventory Management
--   Trigger Systems
--   Lock & Key Mechanics
--   Problem Solving
--   Git Version Control
-
----
-# 🎥 Gameplay Video
-
-📺 **Watch Gameplay:** *(Add your YouTube or Google Drive link here.)*
+-   Medieval Dungeon Asset Pack *(Fab Marketplace)*
+-   Unreal Engine First Person Template
+-   Custom C++ Components
+-   Blueprint Actors
 
 ------------------------------------------------------------------------
 
