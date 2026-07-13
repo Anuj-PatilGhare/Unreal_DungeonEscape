@@ -22,11 +22,13 @@ follows a **component-based architecture**, allowing systems such as
 movement, triggers, and interactions to be reused across multiple
 gameplay objects.
 
-The environment was assembled using the **Medieval Dungeon Asset Pack**
-from the **Fab Marketplace**, while the gameplay mechanics---including
+
+The environment was assembled using the Medieval Dungeon Asset Pack
+from the Fab Marketplac , while the gameplay mechanics---including
 interaction, inventory, trigger logic, lock & key puzzles, and moving
 objects---were implemented using custom C++ classes and Blueprint
 integration.
+
 ---
 # 📂 Repository Information
 
@@ -102,7 +104,8 @@ objects.
 
 Supports: - Collectable items - Locks - Future interactable actors
 
-## 🎒 Inventory System
+------------------------------------------------------------------------
+🎒 Inventory System
 
 A lightweight inventory stores collected key names using a dynamic
 array.
@@ -110,14 +113,16 @@ array.
 Features: - Key collection - Inventory validation - Key removal after
 use - Puzzle progression
 
-## 🔐 Lock & Key System
+------------------------------------------------------------------------
+🔐 Lock & Key System
 
 Reusable lock actors manage puzzle progression.
 
 Features: - Named key matching - Insert/remove keys - Lock state
 management - Trigger activation - Visual key placement
 
-## 🔘 Trigger Component
+------------------------------------------------------------------------
+🔘 Trigger Component
 
 Custom trigger component built from `UBoxComponent`.
 
@@ -125,13 +130,55 @@ Responsibilities: - Overlap detection - Pressure plate logic - Activator
 counting - Trigger state management - Communication with movement
 components
 
-## 🚧 Mover Component
+------------------------------------------------------------------------
+ 🚧 Mover Component
 
 Reusable Actor Component controlling movement.
 
 Features: - Configurable movement offset - Adjustable movement time -
 Delta Time interpolation - Automatic return movement - Smooth actor
 transitions
+
+
+------------------------------------------------------------------------
+
+# 📸 Screenshots
+
+
+Screenshot 1 :
+
+Game Mechanics Testing :
+![Description](https://github.com/Anuj-PatilGhare/Unreal_DungeonEscape/blob/b5be5220d0f7861df96c9be2307e16407306ebd9/Images/ScreenShot_4.png)
+
+Screenshot 2 :
+![Description](https://github.com/Anuj-PatilGhare/Unreal_DungeonEscape/blob/b5be5220d0f7861df96c9be2307e16407306ebd9/Images/ScreenShot_5.png)
+
+Screenshot 3 :
+![Description](https://github.com/Anuj-PatilGhare/Unreal_DungeonEscape/blob/b5be5220d0f7861df96c9be2307e16407306ebd9/Images/ScreenShot_6.png)
+
+Screenshot 4 :
+![Description](https://github.com/Anuj-PatilGhare/Unreal_DungeonEscape/blob/b5be5220d0f7861df96c9be2307e16407306ebd9/Images/ScreenShot_7.png)
+
+Screenshot 5 :
+![Description](https://github.com/Anuj-PatilGhare/Unreal_DungeonEscape/blob/b5be5220d0f7861df96c9be2307e16407306ebd9/Images/ScreenShot_8.png)
+
+Screenshot 6 :
+![Description](https://github.com/Anuj-PatilGhare/Unreal_DungeonEscape/blob/b5be5220d0f7861df96c9be2307e16407306ebd9/Images/ScreenShot_9.png)
+
+Screenshot 7 :
+![Description](https://github.com/Anuj-PatilGhare/Unreal_DungeonEscape/blob/b5be5220d0f7861df96c9be2307e16407306ebd9/Images/ScreenShot_10.png)
+
+Screenshot 8 :
+![Description](https://github.com/Anuj-PatilGhare/Unreal_DungeonEscape/blob/b5be5220d0f7861df96c9be2307e16407306ebd9/Images/ScreenShot_11.png)
+
+Screenshot 9 :
+![Description](https://github.com/Anuj-PatilGhare/Unreal_DungeonEscape/blob/b5be5220d0f7861df96c9be2307e16407306ebd9/Images/ScreenShot_12.png)
+
+Screenshot 10 :
+![Description](https://github.com/Anuj-PatilGhare/Unreal_DungeonEscape/blob/b5be5220d0f7861df96c9be2307e16407306ebd9/Images/ScreenShot_13.png)
+
+Screenshot 11 :
+![Description](https://github.com/Anuj-PatilGhare/Unreal_DungeonEscape/blob/b5be5220d0f7861df96c9be2307e16407306ebd9/Images/ScreenShot_14.png)
 
 ------------------------------------------------------------------------
 
@@ -223,13 +270,7 @@ The level features:
 ## Environment
 
 -   Medieval Dungeon Asset Pack *(Fab Marketplace)*
-
-## Character
-
 -   Unreal Engine First Person Template
-
-## Gameplay
-
 -   Custom C++ Components
 -   Blueprint Actors
 
@@ -262,33 +303,7 @@ The level features:
 -   Problem Solving
 -   Git Version Control
 
-------------------------------------------------------------------------
-
-# 📸 Screenshots
-
-
-## 🏰 Dungeon Entrance
-
-![Dungeon Entrance](Images/DungeonEntrance.png)
-
-## 🔑 Key Collection
-
-![Key Collection](Images/KeyCollection.png)
-
-## 🚪 Door Mechanism
-
-![Door](Images/DoorSystem.png)
-
-## 🔘 Pressure Plate
-
-![Pressure Plate](Images/PressurePlate.png)
-
-## 🚧 Moving Platform
-
-![Platform](Images/MovingPlatform.png)
-
-------------------------------------------------------------------------
-
+---
 # 🎥 Gameplay Video
 
 📺 **Watch Gameplay:** *(Add your YouTube or Google Drive link here.)*
@@ -320,8 +335,6 @@ The level features:
 # 👨‍💻 Author
 
 **Anuj Patilghare**
-
-Associate Developer \| Unreal Engine Developer
 
 This project demonstrates my experience with **Unreal Engine 5**, **C++
 gameplay programming**, **Blueprint integration**, and **component-based
