@@ -27,6 +27,33 @@ from the **Fab Marketplace**, while the gameplay mechanics---including
 interaction, inventory, trigger logic, lock & key puzzles, and moving
 objects---were implemented using custom C++ classes and Blueprint
 integration.
+---
+# 📂 Repository Information
+
+To keep this repository lightweight, only the **source code**,
+**Blueprints**, **configuration files**, and project resources are
+included.
+
+The complete Unreal Engine project contains several gigabytes of
+content, including assets, textures, meshes, and materials from the Fab
+Marketplace.
+
+A complete project archive is available below.
+
+------------------------------------------------------------------------
+
+# 📦 Complete Project Download
+
+**🔗 Google Drive:** *(Add your download link here.)*
+
+The archive includes:
+
+-   ✅ Complete Unreal Engine Project
+-   ✅ Content Folder
+-   ✅ C++ Source Code
+-   ✅ Blueprint Files
+-   ✅ Config Files
+-   ✅ Project Settings
 
 ------------------------------------------------------------------------
 
@@ -239,7 +266,6 @@ The level features:
 
 # 📸 Screenshots
 
-> Replace the placeholders below with your screenshots.
 
 ## 🏰 Dungeon Entrance
 
@@ -266,35 +292,6 @@ The level features:
 # 🎥 Gameplay Video
 
 📺 **Watch Gameplay:** *(Add your YouTube or Google Drive link here.)*
-
-------------------------------------------------------------------------
-
-# 📂 Repository Information
-
-To keep this repository lightweight, only the **source code**,
-**Blueprints**, **configuration files**, and project resources are
-included.
-
-The complete Unreal Engine project contains several gigabytes of
-content, including assets, textures, meshes, and materials from the Fab
-Marketplace.
-
-A complete project archive is available below.
-
-------------------------------------------------------------------------
-
-# 📦 Complete Project Download
-
-**🔗 Google Drive:** *(Add your download link here.)*
-
-The archive includes:
-
--   ✅ Complete Unreal Engine Project
--   ✅ Content Folder
--   ✅ C++ Source Code
--   ✅ Blueprint Files
--   ✅ Config Files
--   ✅ Project Settings
 
 ------------------------------------------------------------------------
 
