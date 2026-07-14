@@ -60,7 +60,7 @@ The archive includes:
 
 # 🎥 Gameplay Video
 
-📺 **Watch Gameplay :** *(https://drive.google.com/drive/u/1/folders/18itgnrsHb370QMGyq6W8TscWyGyKXPXL)*
+📺 **Watch Gameplay :** *(https://drive.google.com/drive/folders/18itgnrsHb370QMGyq6W8TscWyGyKXPXL?usp=sharing)*
 
 ------------------------------------------------------------------------
 
